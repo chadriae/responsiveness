@@ -10,7 +10,7 @@ div.large {
     font-size: 56pt;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 479px) {
     body {
       background-color: #bb2205;
         }
@@ -20,7 +20,7 @@ div.large {
     }
 
 
-  @media only screen and (min-width: 600px) and (max-width: 1024px) {
+  @media only screen and (min-width: 480px) and (max-width: 1023px) {
     body {
       background-color: #7ea04d;
     }
