@@ -10,7 +10,7 @@ div.large {
     font-size: 56pt;
 }
 
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 599px) {
     body {
       background-color: #bb2205;
         }
@@ -20,15 +20,18 @@ div.large {
     }
 
 
-  @media only screen and (min-width: 480px) and (max-width: 1023px) {
+  @media only screen and (min-width: 600px) and (max-width: 1023px) {
     body {
       background-color: #7ea04d;
     }
     .small {
         width: 66%;
+        float: left;
         }
     .medium {
+        float: left;
         width: 33%
+        
     }
     .large {
         width: 100%
