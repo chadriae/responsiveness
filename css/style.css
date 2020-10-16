@@ -1,0 +1,38 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: #bb2205;
+        }
+    div.medium, div.large {
+        display: none;
+        }
+    div.small {
+        font-size: 14pt;
+    }
+    }
+
+
+  @media only screen and (min-width: 600px) and (max-width: 1024px) {
+    body {
+      background-color: #7ea04d;
+    }
+    div.small, div.large {
+        display: none;
+        }
+    div.medium {
+        font-size: 22pt;
+    }
+    }
+    
+
+  @media only screen and (min-width: 1024px) {
+    body {
+      background-color: #407088;
+    }
+    div.small, div.medium {
+        display: none;
+    }
+    div.large {
+        font-size: 36pt;
+    }
+  }
+
