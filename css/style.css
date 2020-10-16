@@ -1,13 +1,22 @@
+div.small {
+    font-size: 14pt;
+}
+
+div.medium {
+    font-size: 28pt;
+}
+
+div.large {
+    font-size: 56pt;
+}
+
 @media only screen and (max-width: 600px) {
     body {
       background-color: #bb2205;
         }
-    div.medium, div.large {
-        display: none;
+    div.medium, div.large, div.small {
+        width: 100%;
         }
-    div.small {
-        font-size: 14pt;
-    }
     }
 
 
@@ -15,11 +24,14 @@
     body {
       background-color: #7ea04d;
     }
-    div.small, div.large {
-        display: none;
+    .small {
+        width: 66%;
         }
-    div.medium {
-        font-size: 22pt;
+    .medium {
+        width: 33%
+    }
+    .large {
+        width: 100%
     }
     }
     
@@ -28,11 +40,9 @@
     body {
       background-color: #407088;
     }
-    div.small, div.medium {
-        display: none;
-    }
-    div.large {
-        font-size: 36pt;
+    .small,  .medium, .large {
+        float: left;
+        width: 33%;
     }
   }
 
